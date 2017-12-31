@@ -1,33 +1,11 @@
 body {
-	
+	font-family: 'Bree Serif', serif;
 }
 
 .layout-container {
 	width: 100%;
-	max-width: 1140px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-
-@media (max-width: 1200px) {
-	.layout-container {
-	    max-width: 960px;
-	}
-}
-@media (max-width: 960px) {
-	.layout-container {
-	    max-width: 720px;
-	}
-}
-@media (max-width: 720px) {
-	.layout-container {
-	    max-width: 540px;
-	}
-}
-
-.navbar .mr-auto, .navbar .mx-auto {
-    margin-left: auto !important;
-    margin-right: unset !important;
 }
