@@ -4,3 +4,5 @@ theme-css:
     component:
       css/style.css: { weight: -10 }
       css/bootstrap.min.css: { weight: -10 }
+    fonts:
+      fonts/stylesheet.css: { weight: -10 }
